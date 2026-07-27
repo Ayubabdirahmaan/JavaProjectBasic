@@ -3,27 +3,23 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 //        birth day
-        Scanner bithDay = new Scanner(System.in);
-        System.out.println("Enter your bithday");
-        int day = 2026;
-        int sources = bithDay.nextInt();
-        int result = day - sources;
-        System.out.println("Your age is:" + result );
+        String name = "Ayubdheere";
+        System.out.println(name);
+        String myNames;
+        myNames = "abdiwali";
+        int current = 90;
+        current = 99;
+        System.out.println(current);
 
-//        calaculate your subjects
-        Scanner subjectOne = new Scanner(System.in);
+        int age = 10;
+        if(age >= 18) {
+            System.out.println("your an adult");
+        }else if(age >= 13) {
+            System.out.println("Your are teeneeger");
+        }else{
+            System.out.println("you are child");
+        }
 
-        System.out.println("Enter subject 1:");
-        int subOne = subjectOne.nextInt();
-        Scanner subjectTwo = new Scanner(System.in);
-        System.out.println("Enter subject 2: ");
-        int subTwo = subjectTwo.nextInt();
-        Scanner subjectThree = new Scanner(System.in);
-        System.out.println("Enter subject 3: ");
-        int subThree = subjectThree.nextInt();
-        int total = subOne + subTwo + subThree;
-        double average = (double) total /3;
-        System.out.println("Total of Subjects : " + total);
-        System.out.println("Average of Subjects:" + average);
+
     }
 }
