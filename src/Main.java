@@ -4,10 +4,8 @@ public class Main {
         obj.input();
         obj.Testclass();
         obj.calculate();
-
         summery scope = new summery();
         scope.summery();
-
         publics pub = new publics();
         pub.publics();
     }
