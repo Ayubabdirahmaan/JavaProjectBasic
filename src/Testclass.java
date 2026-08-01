@@ -1,13 +1,15 @@
 import java.util.Scanner;
 
 public class Testclass {
-    public  void Testclass() {
-        Scanner solution = new Scanner(System.in);
+    Scanner solution = new Scanner(System.in);
+    int number1,number2;
+    public  void  input() {
         System.out.println("Enter number 1: ");
-        int number1 = solution.nextByte();
+         number1 = solution.nextByte();
         System.out.println("Enter number 2: ");
-        int number2 = solution.nextInt();
-
+        number2 = solution.nextInt();
+    }
+    public  void Testclass() {
         int sum = number1 + number2;
         System.out.println("Total number is:" + sum);
     }
