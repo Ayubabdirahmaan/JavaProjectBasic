@@ -5,9 +5,10 @@ public class Main {
         obj.Testclass();
         obj.calculate();
 
-        summery obje = new summery();
-                obje.summery();
+        summery scope = new summery();
+        scope.summery();
+
+        publics pub = new publics();
+        pub.publics();
     }
-
-
 }
