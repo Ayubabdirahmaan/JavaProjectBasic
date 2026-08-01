@@ -3,6 +3,7 @@ public class Main {
         Testclass obj = new Testclass();
         obj.input();
         obj.Testclass();
-
+        obj.calculate();
     }
+
 }
