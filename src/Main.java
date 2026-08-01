@@ -4,6 +4,10 @@ public class Main {
         obj.input();
         obj.Testclass();
         obj.calculate();
+
+        summery obje = new summery();
+                obje.summery();
     }
+
 
 }
