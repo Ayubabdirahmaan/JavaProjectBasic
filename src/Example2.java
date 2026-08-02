@@ -4,6 +4,7 @@ public class Example2 {
     Scanner subjects = new Scanner(System.in);
     int subject1,subject2,subject3;
     int sum;
+    double average;
     public  void inputUser() {
         System.out.println("Enter Subject one: ");
         subject1 = subjects.nextInt();
@@ -12,8 +13,10 @@ public class Example2 {
         System.out.println("Enter subject three: ");
         subject3 = subjects.nextInt();
         sum = subject1 + subject2 + subject3;
+        average = sum / 3;
     }
     public  void  displayUser() {
         System.out.println("Total of subjects is: " + sum);
+        System.out.println("Average of Subjects: " + average);
     }
 }

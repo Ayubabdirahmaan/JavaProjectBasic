@@ -3,7 +3,6 @@ public class Main {
         Example1 obj1 = new Example1();
             obj1.input();
             obj1.Display();
-
             Example2 obj2 = new Example2();
             obj2.inputUser();
             obj2.displayUser();
