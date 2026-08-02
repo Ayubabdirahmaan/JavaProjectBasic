@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Example4 {
     Scanner birthDay = new Scanner(System.in);
     int year;
