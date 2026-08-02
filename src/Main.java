@@ -15,5 +15,9 @@ public class Main {
             Example4 obj4 = new Example4();
             obj4.testInput();
             obj4.testDisplay();
+
+            Example5 obj5 = new Example5();
+            obj5.calculateInput();
+            obj5.calculateDisplay();
     }
 }
