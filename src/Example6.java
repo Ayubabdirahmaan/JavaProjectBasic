@@ -4,6 +4,7 @@ public class Example6 {
     Scanner calculateOperators = new Scanner(System.in);
     int num1,num2,num3,num4,num5;
     int result;
+    int average;
     public void  inputExample () {
         System.out.println("Enter number one:");
         num1 = calculateOperators.nextInt();
@@ -16,8 +17,10 @@ public class Example6 {
         System.out.println("Enter number five");
         num5 = calculateOperators.nextInt();
         result = num1 + num2 - num3 * num4 / num5;
+        average = result % 3;
     }
     public  void displayExample () {
         System.out.println("Total of calculate: " + result);
+        System.out.println("Average of calculate " + average);
     }
 }
