@@ -28,5 +28,6 @@ public class Main {
             obj6.InputLanguages();
             obj6.secondInput();
             obj6.displayLanguage();
+            obj6.lastPoint();
     }
 }
