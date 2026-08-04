@@ -19,9 +19,13 @@ public class Main {
 //            Example5 obj5 = new Example5();
 //            obj5.calculateInput();
 //            obj5.calculateDisplay();
+//
+//            Example6 obj6 = new Example6();
+//            obj6.inputExample();
+//            obj6.displayExample();
 
-            Example6 obj6 = new Example6();
-            obj6.inputExample();
-            obj6.displayExample();
+            Example7 obj6 = new Example7();
+            obj6.InputLanguages();
+            obj6.displayLanguage();
     }
 }
