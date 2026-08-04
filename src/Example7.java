@@ -6,6 +6,9 @@ public class Example7 {
     public void InputLanguages () {
         System.out.println("Enter Language 1:");
         language1 = langauge.nextLine();
+
+    }
+    public void secondInput() {
         System.out.println("Enter langauge 2:");
         language2 = langauge.nextLine();
     }

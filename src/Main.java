@@ -26,6 +26,7 @@ public class Main {
 
             Example7 obj6 = new Example7();
             obj6.InputLanguages();
+            obj6.secondInput();
             obj6.displayLanguage();
     }
 }
